@@ -1,11 +1,4 @@
 from flask import Flask, jsonify, request
-import psutil  # Librería para obtener información del sistema (instala con `pip install psutil`)
-import subprocess
-
-app = Flask(__name__)
-
-# Endpoint para obtener el uso de un dispositivo específico o de todos los dispositivos
-from flask import Flask, jsonify, request
 import psutil  # Librería para obtener información del sistema
 import subprocess
 import platform
