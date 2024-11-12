@@ -66,7 +66,7 @@ def get_device_usage():
 
     except Exception as e:
         return jsonify({"error": f"Device {device} not found: {e}"}), 400
-
+-
 # Endpoint para ejecutar un script interno
 @app.route('/run_script', methods=['POST'])
 def run_script():
